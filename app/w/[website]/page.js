@@ -219,7 +219,7 @@ export default function WebsitePage() {
                             <div className="items-center justify-center bg-black mt-12 
                             w-full border-y border-white/5 relative">
                                 {customEvents.map(event => (
-                                    <div className="text-white w-full items-start justify-start px-6 py-12
+                                    <div key={event} className="text-white w-full items-start justify-start px-6 py-12
                                      border-b border-white/5 flex flex-col relative">
                                         <p className="text-white/70 font-light pb-3">{event.event_name}</p>
                                         <p>{event.message}</p>
