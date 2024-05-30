@@ -22,5 +22,5 @@ export async function POST(req) {
     if (event == "pageview") {
         await supabase.from("page_views").insert([{ domain, page: url }])
     }
-    return NextResponse.jnso({ res }, { headers: corsHeaders })
+    return NextResponse.json({ res }, { headers: corsHeaders })
 }
