@@ -66,7 +66,7 @@ export default function AddPage() {
                     <span className="w-full lg:w-[50%]">
                         <textarea type="text" className="input text-white/20 cursor-pointer" disabled
                             value={`<script defer data-domain="${website}"
-                src="http://localhost:3000/tracking-script.js"></script>`} />
+                src="https://analytics-yt.vercel.app/tracking-script.js"></script>`} />
                         <p className="text-xs text-white/20 pt-2 font-light">
                             paste this snippet in the <b className="text-red-600">{"<head>"}</b> of your website
                         </p>
